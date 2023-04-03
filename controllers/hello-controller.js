@@ -1,0 +1,11 @@
+const HelloController = (app) => {
+  app.get('/hello', (req, res) => {
+    res.send('Life is Good!');
+  });
+
+  app.get('/', (req, res) => {
+    res.send('Welocome to Full Stack Development!');
+  });
+};
+
+export default HelloController;

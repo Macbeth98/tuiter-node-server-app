@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "tuiter-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the Tuiter application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NODE",
+    "Rest",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Mani Gaddam",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
