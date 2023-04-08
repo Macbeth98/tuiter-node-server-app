@@ -7,8 +7,7 @@ import UserController from './controllers/users/users-controller.js';
 import tuitsController from './controllers/tuits/tuits-controller.js';
 
 const CONNECTION_STRING =
-  'mongodb+srv://webDb:supersecretpassword@webdev.7cqwoak.mongodb.net/tuiter?retryWrites=true&w=majority';
-// process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/tuiter';
+  process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/tuiter';
 mongoose.connect(CONNECTION_STRING).then(() => {
   console.log('Connected to MongoDB!');
 });
